@@ -22,10 +22,10 @@
         </activity>
         <activity android:name=".Maincontent"></activity>
         <activity android:name=".RegisterActivity"
-            android:windowSoftInputMode="adjustPan|adjustResize"/>
+            android:windowSoftInputMode="adjustResize|stateVisible|stateAlwaysHidden" />
         <activity
             android:name=".LoginActivity"
-            android:windowSoftInputMode="adjustPan|adjustResize" />
+            android:windowSoftInputMode="adjustResize|stateVisible|stateAlwaysHidden"/>
     </application>
 
 </manifest>

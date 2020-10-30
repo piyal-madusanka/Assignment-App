@@ -54,6 +54,9 @@ class RegisterActivity : BaceActivity(){
         if(validatenames(firstname!!,lastname!!) && mailValidation(email.text.toString(),email) && passwordValidator(password.text.toString(),password)
                 && comparePaswords(password.text.toString(),password2.text.toString(),password2)){
             createAccount(email.text.toString(),password.text.toString())
+        }else{
+
+            mProgress!!.dismiss()
         }
 
     }
@@ -77,7 +80,6 @@ class RegisterActivity : BaceActivity(){
                     }
                 }
                 Toast.makeText(this, "createUserWithEmail:success", Toast.LENGTH_LONG).show()
-                mProgress!!.show();
                 handler.postDelayed(runnable!!, 2000)
 
 
