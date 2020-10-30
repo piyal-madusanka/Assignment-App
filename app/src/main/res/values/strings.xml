@@ -1,0 +1,17 @@
+<resources xmlns:tools="http://schemas.android.com/tools">
+    <string name="app_name">SplashApp</string>
+    <string name="enter_last_name">Enter Last Name</string>
+    <string name="todo">TODO</string>
+    <string name="enter_email">Enter Email</string>
+    <string name="re_enter_password">Re-Enter Password</string>
+    <string name="sign_up">SIGN UP</string>
+    <string name="enter_first_name" tools:ignore="DuplicateDefinition">Enter First Name</string>
+    <string name="enter_password" tools:ignore="DuplicateDefinition">Enter Password</string>
+    <string name="already_have_an_account_log_in">ALlREADY HAVE AN ACCOUNT ? LOG IN</string>
+    <string name="string_todo">todo</string>
+    <string name="login">LOGIN</string>
+    <string name="forgot_password">FORGOT PASSWORD ?</string>
+    <string name="or">or</string>
+    <string name="new_user_register_now">NEW USER ? REGISTER NOW</string>
+
+</resources>
